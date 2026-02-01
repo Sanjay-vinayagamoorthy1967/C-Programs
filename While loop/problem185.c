@@ -1,19 +1,38 @@
+
 #include <stdio.h>
 
 int main(){
-    int n,n1;
+    int n,values;
     scanf("%d", &n);
-    int sum=0,count=0,temp=0;cou=0,count1=0;
-    while(n--){
-        scanf("%d", &n1);//3   2  4
-        temp=n1;
-        sum=sum+n1;//0+0=3   3+2=5    5+4=9 
-        if(sum<=temp){//3>0  T   5>3  9>5  T
-                    //3   5  9
-            count++;//1  2  3
-        }if(cou<count){//0<1  1<2  
-            cou=count;//1  2
+    int count=0,num=0,sum=0,temp=0,max=0,val=0;
+    int i=1;
+    while(i<=n){
+        scanf("%d", &values);
+        if(values<temp  || val==0){
+                count++;
+                num++;
+                val++;
+            temp=values;
+            if(num>sum){
+                sum=num;
+                max=i;
+            }
+        }else{
+            num=0;
+            if(sum>3){
+                temp=0;
+            }
+            
         }
-
+        i++;
     }
+        if(max<3){
+             printf("Crash Day: Not Detected\n");
+           
+        }else{
+            printf("Crash Day: %d\n", max);
+        }
+        
+        printf("Total Drops: %d\n", count);
+
 }
