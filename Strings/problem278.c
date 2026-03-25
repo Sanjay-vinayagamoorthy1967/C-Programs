@@ -12,7 +12,7 @@ int main() {
         freq[s1[i] - 'a']++;
     }
 
-    // Subtract characters in s2
+    
     for(int i = 0; s2[i] != '\0'; i++) {
         freq[s2[i] - 'a']--;
     }
