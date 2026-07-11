@@ -9,7 +9,7 @@ int main(){
         sum=sum+usage;
         if(sum<=total){
             count=count+sum;
-            
+         
         else{
             count1=count1+sum;
         }
