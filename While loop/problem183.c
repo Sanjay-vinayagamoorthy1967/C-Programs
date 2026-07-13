@@ -7,7 +7,7 @@ int main(){
     while(n--){
         scanf("%d", &val);
         sum=sum+val;
-        if(val<=bal){
+        if(val<=bal){ 
             count++;
         }else{
             count1++;
