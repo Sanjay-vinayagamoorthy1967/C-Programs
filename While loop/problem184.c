@@ -16,3 +16,4 @@ int main(){
     }printf("Treated Patients: %d\n", count);
     printf("Rejected Patients: %d", count1);
 }
+ 
