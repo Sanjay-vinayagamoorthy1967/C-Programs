@@ -12,7 +12,6 @@ int main(){
         }else{
             count1++;
         }
-
     }
     printf("Safe Hours:%d\n", count);
     printf("Failure Count:%d\n", count1);
