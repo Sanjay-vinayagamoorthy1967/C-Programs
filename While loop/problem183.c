@@ -9,7 +9,7 @@ int main(){
         sum=sum+val;
         if(val<=bal){ 
             count++;
-        }else{
+        }else
             count1++;
         }
     }
