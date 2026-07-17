@@ -10,7 +10,7 @@ int main(){
         if(sum<=total){
             count=count+sum;
         }  
-        else{
+        else{ 
             count1=count1+sum;
         }
     }printf("Treated Patients: %d\n", count);
