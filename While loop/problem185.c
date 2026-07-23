@@ -17,7 +17,7 @@ int main(){
             }
         }else{
             num=0;
-            if(sum>3){ 
+            if(sum>3){  
                 temp=0; 
             }
         
