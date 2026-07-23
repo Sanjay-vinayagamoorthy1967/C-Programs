@@ -20,7 +20,7 @@ int main(){
             if(sum>3){  
                 temp=0; 
             }
-        
+         
         }
         i++;  
     }
