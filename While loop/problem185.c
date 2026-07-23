@@ -22,7 +22,7 @@ int main(){
             }
         
         }
-        i++;
+        i++;  
     }
         if(max<3){
              printf("Crash Day: Not Detected\n");
