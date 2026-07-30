@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+ 
 int main(){
     int total,n,usage;
     scanf("%d %d", &total,&n);  
