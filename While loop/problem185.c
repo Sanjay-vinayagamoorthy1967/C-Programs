@@ -11,7 +11,7 @@ int main(){
                 num++; 
                 val++;
             temp=values; 
-            if(num>sum){
+            if(num>sum){ 
                 sum=num;
                 max=i;
             }
