@@ -10,7 +10,7 @@ int main(){
                 count++;   
                 num++;  
                 val++;
-            temp=values; 
+            temp=values;  
             if(num>sum){ 
                 sum=num;
                 max=i;
