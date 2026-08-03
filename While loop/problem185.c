@@ -13,7 +13,7 @@ int main(){
             temp=values;  
             if(num>sum){ 
                 sum=num;
-                max=i;
+                max=i; 
             }
         }else{ 
             num=0;
