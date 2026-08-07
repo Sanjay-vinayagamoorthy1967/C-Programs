@@ -6,7 +6,7 @@ int main(){
     int i=1;
     while(i<=n){    
         scanf("%d", &values);
-        if(values<temp  || val==0){   
+        if(values<temp  || val==0){    
                 count++;    
                 num++;  
                 val++;
