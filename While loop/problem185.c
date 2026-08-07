@@ -7,7 +7,7 @@ int main(){
     while(i<=n){   
         scanf("%d", &values);
         if(values<temp  || val==0){   
-                count++;   
+                count++;    
                 num++;  
                 val++;
             temp=values;  
