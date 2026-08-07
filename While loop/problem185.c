@@ -5,7 +5,7 @@ int main(){
     int count=0,num=0,sum=0,temp=0,max=0,val=0;  
     int i=1;
     while(i<=n){    
-        scanf("%d", &values);
+        scanf("%d", &values); 
         if(values<temp  || val==0){    
                 count++;    
                 num++;  
