@@ -15,7 +15,7 @@ int main(){
                 sum=num;
                 max=i; 
             }
-        }else{ 
+        }else{  
             num=0;
             if(sum>3){    
                 temp=0;     
