@@ -8,7 +8,7 @@ int main(){
         scanf("%d", &values); 
         if(values<temp  || val==0){    
                 count++;    
-                num++;   
+                num++;    
                 val++;
             temp=values;  
             if(num>sum){ 
