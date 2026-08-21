@@ -14,7 +14,7 @@ int main(){
             if(num>sum){ 
                 sum=num;
                 max=i; 
-            }
+            } 
         }else{  
             num=0;
             if(sum>3){    
