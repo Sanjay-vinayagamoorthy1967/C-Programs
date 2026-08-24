@@ -11,7 +11,7 @@ int main(){
             count=count+sum;                   
         }    
         else{    
-            count1=count1+sum;  
+            count1=count1+sum; 
         }  
     }printf("Treated Patients: %d\n", count);
     printf("Rejected Patients: %d", count1);
