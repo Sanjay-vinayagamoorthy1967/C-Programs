@@ -10,7 +10,7 @@ int main(){
         sum=sum+usage;
         if(sum<=data){
             count++;    
-        }else{
+        }else{   
             if(temp==0){
                 count++;
                 num=sum;
