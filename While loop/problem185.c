@@ -9,7 +9,7 @@ int main(){
         if(values<temp  || val==0){    
                 count++;    
                 num++;     
-                val++; 
+                val++;  
             temp=values;  
             if(num>sum){ 
                 sum=num;
