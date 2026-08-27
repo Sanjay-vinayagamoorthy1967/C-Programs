@@ -9,7 +9,7 @@ int main(){
         scanf("%d", &usage); 
         sum=sum+usage;
         if(sum<=data){   
-            count++;      
+            count++;        
         }else{   
             if(temp==0){
                 count++;
