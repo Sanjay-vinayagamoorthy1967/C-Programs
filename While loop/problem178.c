@@ -6,7 +6,7 @@ int main(){
     int num=0,sum=0,temp=0,count=0,rem=0;
     int i=1;
     while(i<=n){ 
-        scanf("%d", &usage); 
+        scanf("%d", &usage);  
         sum=sum+usage;
         if(sum<=data){    
             count++;        
