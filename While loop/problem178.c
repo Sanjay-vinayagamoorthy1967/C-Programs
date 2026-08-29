@@ -12,7 +12,7 @@ int main(){
             count++;        
         }else{   
             if(temp==0){
-                count++;
+                count++; 
                 num=sum;   
                 temp++;
             }
