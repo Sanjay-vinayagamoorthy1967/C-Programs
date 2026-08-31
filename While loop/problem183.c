@@ -10,7 +10,7 @@ int main(){
         if(val<=bal){   
             count++;     
         }else{      
-            count1++; 
+            count1++;  
         }
     }  
     printf("Safe Hours:%d\n", count);
