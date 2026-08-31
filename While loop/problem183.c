@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 int main(){
     int bal,n,val;
     scanf("%d %d", &bal,&n);
@@ -8,7 +8,7 @@ int main(){
         sum=sum+val;      
         if(val<=bal){    
             count++;     
-        }else{      
+        }else{
             count1++;  
         }
     }  
