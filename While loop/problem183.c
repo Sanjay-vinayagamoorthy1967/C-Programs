@@ -4,7 +4,7 @@ int main(){
     int bal,n,val;
     scanf("%d %d", &bal,&n); 
     int sum=0,count=0,count1=0;
-    while(n--){
+    while(n--){ 
         scanf("%d", &val); 
         sum=sum+val;       
         if(val<=bal){    
