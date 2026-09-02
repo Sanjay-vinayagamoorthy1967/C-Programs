@@ -8,7 +8,7 @@ int main(){
         scanf("%d", &val); 
         sum=sum+val;       
         if(val<=bal){    
-            count++;     
+            count++;       
         }else{ 
             count1++;  
         }
